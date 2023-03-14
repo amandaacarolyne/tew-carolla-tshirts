@@ -4,9 +4,8 @@ Projeto desenvolvido ao longo do semestre na disciplina de Tópicos Especiais em
 
 Esse projeto tem como objetivo principal implementar uma aplicação baseada em reservas de camisetas t-shirts.
 
-## Endereço de Deploy - GitHub Pages
-
 ## Protótipo
+https://www.figma.com/proto/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=95%3A8&starting-point-node-id=95%3A8
 
 ## Checklist
 
