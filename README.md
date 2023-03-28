@@ -5,14 +5,15 @@ Projeto desenvolvido ao longo do semestre na disciplina de Tópicos Especiais em
 Esse projeto tem como objetivo principal implementar uma aplicação baseada em reservas de camisetas t-shirts.
 
 ## Protótipo
+
 https://www.figma.com/proto/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=95%3A8&starting-point-node-id=95%3A8
 
 ## Checklist
 
-- [ ] Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
-- [ ] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
-- [ ] Apresentar as telas com layout responsivo usando ou não algum framework CSS.
-- [ ] Construir páginas web com o conceito de componentes.
+- [x] Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
+- [x] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
+- [x] Apresentar as telas com layout responsivo usando ou não algum framework CSS.
+- [x] Construir páginas web com o conceito de componentes.
 - [ ] Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
 - [ ] Usar pelo menos dois tipos de data-binding (Interpolation, Property Binding, Event Binding e Two Way Data Binding).
 - [ ] Passar dados via hierarquia de componentes, ou seja, usando @Input ou @Output.
