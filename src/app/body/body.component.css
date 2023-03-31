@@ -1,6 +1,6 @@
 .logo {
   display: block;
   margin: 0 auto;
-  height: calc(100vh - 50px);
+  height: calc(80vh);
   max-width: 100%;
 }

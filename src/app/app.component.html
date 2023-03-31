@@ -1,1 +1,6 @@
-<app-body></app-body> <app-footer></app-footer>
+<app-header></app-header>
+<div class="container" *ngIf="isHomeRoute()">
+  <app-body></app-body>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
