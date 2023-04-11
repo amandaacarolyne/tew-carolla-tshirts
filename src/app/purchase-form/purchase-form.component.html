@@ -1,14 +1,16 @@
 <p class="select">Selecione o código da T-shirt escolhida:</p>
 <div class="container">
-  <select class="form-select">
-    <option selected>Selecione aqui</option>
+  <select class="form-select" [(ngModel)]="selectedOption">
+    <option value="">Selecione aqui</option>
     <option value="1">animals01</option>
     <option value="2">animals02</option>
     <option value="3">animals03</option>
     <option value="4">animals04</option>
   </select>
 </div>
-<p class="whatsApp">Escolheu mais de uma? Me avisa no WhatsApp :)</p>
+<p class="whatsApp" *ngIf="selectedOption !== ''">
+  Escolheu mais de uma? Me avisa no WhatsApp :)
+</p>
 <div class="container" style="text-align: center">
   <button class="btn btn-warning" (click)="goToHomepage()">Salvar</button>
 </div>

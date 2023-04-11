@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./purchase-form.component.css'],
 })
 export class PurchaseFormComponent {
+  selectedOption: string = '';
+
   constructor(private router: Router) {}
 
   goToHomepage() {
