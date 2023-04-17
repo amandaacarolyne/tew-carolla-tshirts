@@ -1,4 +1,4 @@
-<p class="welcome-message">Olá, seja bem vinda {{ name }} :)</p>
+<p class="welcome-message">Olá, seja bem-vinda {{ name }} :)</p>
 <div class="container">
   <form>
     <div class="form-group">
@@ -9,7 +9,11 @@
         id="name"
         name="name"
         [(ngModel)]="name"
+        pattern="[0-9]+"
       />
+      <div *ngIf="name && name.match('[0-9]+')" class="error-message">
+        Nome inválido, use apenas letras!
+      </div>
     </div>
     <div class="form-group">
       <label for="phone">Telefone</label>
@@ -19,7 +23,11 @@
         id="phone"
         name="phone"
         [(ngModel)]="phone"
+        pattern="[a-zA-Z]+"
       />
+      <div *ngIf="phone && phone.match('[a-zA-Z]+')" class="error-message">
+        Telefone inválido, use apenas números!
+      </div>
     </div>
     <div class="form-group">
       <label for="address">Endereço</label>
@@ -29,7 +37,11 @@
         id="address"
         name="address"
         [(ngModel)]="address"
+        pattern="^[a-zA-Z0-9\s]+$"
       />
+      <div *ngIf="address && !address.match('^[a-zA-Z0-9\\s]+$')" class="error-message">
+        Endereço inválido, use apenas letras, números e espaços.
+      </div>
     </div>
     <button
       type="submit"

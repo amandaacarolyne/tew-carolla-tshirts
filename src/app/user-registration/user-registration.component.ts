@@ -14,8 +14,14 @@ export class UserRegistrationComponent {
   constructor(private router: Router) {}
 
   saveAndNavigateToList() {
-    // add aqui codigo para salvar os dados do formulário
+    // Adicione aqui o código para salvar os dados do formulário
 
     this.router.navigate(['/t-shirt-list']);
   }
+
+  // Função de validação de endereço
+  validateAddress(address: string): boolean {
+  const regex = /^[a-zA-Z0-9\s]+$/;
+  return !address || !regex.test(address);
+}
 }
