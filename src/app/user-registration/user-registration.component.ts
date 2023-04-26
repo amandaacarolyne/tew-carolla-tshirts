@@ -20,6 +20,7 @@ export class UserRegistrationComponent {
 
     const data = `Nome: ${this.name}\nTelefone: ${this.phone}\nEndereço: ${this.address}`;
     alert(data);
+
     this.router.navigate(['/t-shirt-list']);
   }
 
