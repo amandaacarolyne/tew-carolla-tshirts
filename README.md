@@ -11,7 +11,7 @@ https://www.figma.com/proto/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=95%3A
 ## Checklist
 
 - [x] Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
-- [x] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
+- [x] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro).
 - [x] Apresentar as telas com layout responsivo usando ou não algum framework CSS.
 - [x] Construir páginas web com o conceito de componentes.
 - [x] Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
@@ -25,6 +25,6 @@ https://www.figma.com/proto/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=95%3A
 - [ ] Fazer requisições a API com tratamento da resposta com Promises ou Observables.
 - [ ] Cadastrar uma entidade no JSON Server.
 - [ ] Apresentar uma lista de dados com a diretiva estrutural ngFor.
-- [x] Usar a diretiva ngIf
+- [x] Usar a diretiva ngIf.
 - [ ] Formatar a apresentação de dados com Pipes.
 - [ ] Build e deploy da aplicação.

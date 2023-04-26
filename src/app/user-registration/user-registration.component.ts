@@ -14,7 +14,13 @@ export class UserRegistrationComponent {
   constructor(private router: Router) {}
 
   saveAndNavigateToList() {
-    // Adicione aqui o código para salvar os dados do formulário
+
+    localStorage.setItem('name', this.name);
+    localStorage.setItem('phone', this.phone);
+    localStorage.setItem('address', this.address);
+
+    const data = `Nome: ${this.name}\nTelefone: ${this.phone}\nEndereço: ${this.address}`;
+    alert(data);
 
     this.router.navigate(['/t-shirt-list']);
   }
@@ -24,4 +30,5 @@ export class UserRegistrationComponent {
   const regex = /^[a-zA-Z0-9\s]+$/;
   return !address || !regex.test(address);
 }
+
 }
