@@ -14,14 +14,12 @@ export class UserRegistrationComponent {
   constructor(private router: Router) {}
 
   saveAndNavigateToList() {
-
     localStorage.setItem('name', this.name);
     localStorage.setItem('phone', this.phone);
     localStorage.setItem('address', this.address);
 
     const data = `Nome: ${this.name}\nTelefone: ${this.phone}\nEndereço: ${this.address}`;
     alert(data);
-
     this.router.navigate(['/t-shirt-list']);
   }
 
@@ -29,6 +27,5 @@ export class UserRegistrationComponent {
   validateAddress(address: string): boolean {
   const regex = /^[a-zA-Z0-9\s]+$/;
   return !address || !regex.test(address);
-}
-
+} 
 }
