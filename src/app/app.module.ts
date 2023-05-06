@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { PurchaseFormComponent } from './purchase-form/purchase-form.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
