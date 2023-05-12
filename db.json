@@ -1,10 +1,16 @@
 {
   "users": [
     {
-      "name": "Amanda Carolyne",
+      "name": "Carla Franciele",
       "phone": "42984345796",
       "address": "Rua Inglaterra 361",
       "id": 1
+    },
+    {
+      "name": "Amanda Carolyne",
+      "phone": "42984345796",
+      "address": "Travessa Arlindo Antunes de Almeida 250",
+      "id": 2
     }
   ]
 }

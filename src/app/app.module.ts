@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { PurchaseFormComponent } from './purchase-form/purchase-form.component';
-
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { PurchaseFormComponent } from './purchase-form/purchase-form.component';
     HomeComponent,
     FooterComponent,
     PurchaseFormComponent,
+    UserListComponent,
   ],
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   providers: [],

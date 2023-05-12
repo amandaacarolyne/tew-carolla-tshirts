@@ -1,0 +1,9 @@
+<p>Lista de clientes já cadastrados em Carolla T-shirts:</p>
+
+<ul>
+  <li *ngFor="let user of users">
+    Nome: {{ user.name}}, 
+    Telefone: {{ formatarTelefone(user.phone) }},
+    Endereço: {{ user.address}}
+  </li>
+</ul>

@@ -12,6 +12,7 @@ export class UserRegistrationComponent {
   name: string = '';
   phone: string = '';
   address: string = '';
+  users: any[] = [];
 
   constructor(private router: Router) {}
 
@@ -49,6 +50,7 @@ export class UserRegistrationComponent {
           .then(response => {
             console.log(response.data);
             alert('Usuário salvo com sucesso no JSON Server!');
+            this.users.push(response.data);
             this.router.navigate(['/t-shirt-list']);
           })
           .catch(error => {
