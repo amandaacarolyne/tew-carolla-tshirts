@@ -27,4 +27,4 @@ https://www.figma.com/proto/4ewgTYfWPDcTZ3vItWBP1g/carolla_tshirts?node-id=95%3A
 - [x] Apresentar uma lista de dados com a diretiva estrutural ngFor.
 - [x] Usar a diretiva ngIf.
 - [x] Formatar a apresentação de dados com Pipes.
-- [ ] Build e deploy da aplicação.
+- [x] Build e deploy da aplicação.
